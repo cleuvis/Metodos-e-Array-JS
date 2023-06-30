@@ -1,6 +1,5 @@
 let livros = []
 const endpointDaAPI = 'https://guilhermeonrails.github.io/casadocodigo/livros.json'
-console.table(endpointDaAPI)
 getBuscarLivrosDaAPI()
 
 async function getBuscarLivrosDaAPI() {
